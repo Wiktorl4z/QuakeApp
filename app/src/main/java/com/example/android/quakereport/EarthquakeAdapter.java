@@ -45,7 +45,6 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
         }
 
 
-
         // Get the {@link AndroidFlavor} object located at this position in the list
         Earthquake currentItem = getItem(position);
         // Find the TextView in the list_item.xml layout with the ID version_name
